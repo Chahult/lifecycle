@@ -201,6 +201,7 @@ cc_library(
     features = COMPILER_WARNING_FEATURES,
     deps = [
         ":application_mock",
+        ":lifecyclemanager",
         # "//platform/aas/lib/os/utils/mocklib:signal_mock",
         "@score_baselibs//score/os/utils/mocklib:signal_mock",
         "@googletest//:gtest",
